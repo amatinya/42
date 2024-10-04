@@ -1,0 +1,23 @@
+.WeatherForecast {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .day {
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid var(--colors-gray-400);
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+
+        .name {
+            font-weight: 600;
+        }
+
+        .weather {
+            color: var(--colors-gray-700);
+        }
+    }
+}
